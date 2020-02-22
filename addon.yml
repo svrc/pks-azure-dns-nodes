@@ -1,0 +1,17 @@
+---
+addons:
+- include:
+    jobs:
+    - name: kubelet
+      release: kubo
+    - name: kube-apiserver
+      release: kubo
+  jobs:
+  - name: resolv
+    properties:
+      search: bosh-agent-id
+    release: os-conf
+  name: resolv-nodes
+releases:
+- name: os-conf
+  version: 21.0.0+dev.1

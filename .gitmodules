@@ -1,0 +1,3 @@
+[submodule "os-conf-release"]
+	path = os-conf-release
+	url = https://github.com/cloudfoundry/os-conf-release
