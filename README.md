@@ -4,7 +4,7 @@
 
 This will ensure that PKS clusters on Azure have nodes that can be resolved by BOSH DNS.  This is necessary if you bring your own DNS server (not Azure DNS).
 
-Requires Ops Manager 2.6.16+, 2.7.7+, 2.8.0+
+Requires Ops Manager 2.5.29+, 2.6.16+, 2.7.7+, 2.8.0+ (specifically it needs BOSH DNS 1.12+)
 
 
 ## How do I install it?
