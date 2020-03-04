@@ -31,5 +31,5 @@ bosh upload-release ./dev_releases/os-conf/os-conf-21.0.0+dev.1.yml
 cd ..
 bosh -n update-config --name=pks-azure-dns --type=runtime ./addon.yml
 ```
-5. Update your PKS clusters via the PKS CLI and/or Ops Manager "Apply Pending Changes" button with the PKS upgrade errand enabled.  This addon will automatically be installed on all worker nodes with the default manifest `pks-dpw-manifest.yml`
+5. Update your PKS clusters via the PKS CLI and/or Ops Manager "Apply Pending Changes" button with the PKS upgrade errand enabled.  This addon will automatically be installed on all master and worker nodes with the default manifest `pks-dpw-manifest.yml`
 
