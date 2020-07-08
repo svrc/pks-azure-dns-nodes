@@ -1,8 +1,8 @@
-# PKS Azure DNS Resolution
+# Tanzu Kubernetes Grid Integrated (TKGI) / PKS  Azure DNS Resolution
 
 ## What does this do?
 
-This will ensure that PKS clusters on Azure have nodes that can be resolved by BOSH DNS.  This is useful if you bring your own DNS server (not Azure DNS).
+This will ensure that TKGI/PKS clusters on Azure have nodes that can be resolved by BOSH DNS.  This is useful if you bring your own DNS server (not Azure DNS).
 
 Requires Ops Manager 2.5.30+, 2.6.16+, 2.7.7+, 2.8.0+ (specifically it needs BOSH DNS 1.15+)
 
